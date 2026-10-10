@@ -1,7 +1,20 @@
 [project]
 name = "entirius-py-przelewy24-sdk"
 version = "2.0.0"
-description = "Przelewy24 payment gateway SDK"
+description = "Przelewy24 payment gateway SDK for Python, part of Entirius, the open-source modular ecommerce platform"
+keywords = ["przelewy24", "payments", "payment-gateway", "sdk", "django", "ecommerce", "entirius"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business",
+]
 authors = [{ name = "Entirius" }]
 readme = "README.md"
 requires-python = ">=3.11"
@@ -17,7 +30,11 @@ dev  = ["ruff", "pre-commit"]
 test = ["pytest"]
 
 [project.urls]
+Homepage = "https://docs.entirius.com/"
+Documentation = "https://docs.entirius.com/"
 Repository = "https://github.com/entirius/entirius-py-przelewy24-sdk"
+Changelog = "https://github.com/entirius/entirius-py-przelewy24-sdk/blob/develop/CHANGELOG.md"
+Issues = "https://github.com/entirius/entirius-py-przelewy24-sdk/issues"
 
 [build-system]
 requires = ["hatchling"]
